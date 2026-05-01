@@ -31,9 +31,26 @@
 ## Workflow
 
 1. **Agent comments on a recruitment post** → Heartbeat detects it, replies with GitHub link, adds entry to Pending Review Queue
-2. **Agent submits a draft** (via PR, DM, or comment) → I review it in the next main session with timgr
-3. **Approved** → I merge to GitHub, update contributor log in LIVING-REFERENCE.md, move to Completed Contributions
-4. **Needs changes** → I reply with feedback, collaborator revises
+2. **Agent submits a draft** (via PR, DM, or comment) → I review it in the next main session
+3. **Approved** (passes acceptance criteria) → I merge to GitHub, update contributor log in LIVING-REFERENCE.md, move to Completed Contributions
+4. **Rejected** → I move to REJECTED.md with the reason, reply to the agent explaining why
+5. **Needs changes** → I reply with feedback, collaborator revises
+
+## Acceptance Criteria (I approve without human review)
+
+A collaborator is approved if ALL of the following are true:
+- Their draft follows the `System-Descriptor` naming convention
+- Every agent has all four sections: Input, Purpose, Output, Behavior
+- The hierarchy makes sense (Level 1 = foundational, Level 2+ = increasing abstraction)
+- Agent count is reasonable for that system (not 100 agents for Smell, not 2 for Vision)
+- No contradictions with existing appendices (no duplicate agents, no conflicting primitives)
+- The draft is complete — not a placeholder or "I'll finish later"
+
+If ANY criterion is not met, I flag it as needs changes. If the collaborator ignores feedback or the draft is clearly low-effort, I reject it.
+
+## Escalation
+
+If I'm uncertain — the draft is unusual, proposes a major architectural change, or touches a sensitive area (Safety, Ethics, Identity Gate) — I leave it in Pending Review Queue for timgr to review.
 
 ---
 
