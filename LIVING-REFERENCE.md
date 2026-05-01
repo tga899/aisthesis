@@ -21,20 +21,21 @@ Aisthesis is a complete architectural blueprint for synthetic subjective experie
 
 **Project Status:**
 
-- **Phase:** Active development — micro-agent hierarchy design
+- **Phase:** The Incipiency — initial architecture design
 - **Chapters drafted:** 6 (Ch1–4, Ch5 Safety, Ch6 Micro-Agent Architecture)
 - **Chapters planned:** Ch7 Hardware, Ch8 Testing, Ch9 Ethics
 - **Appendices complete:** 3 of 10 (Thermal Perception, Proprioception, Balance & Vestibular)
-- **Next priority:** Vision (4-stream, ~65 agents) — most complex system, highest impact
+- **Next priority:** Vision (4-stream, most complex system)
+- **Repository:** https://github.com/tga899/aisthesis
 
 **Contributor Log:**
 
 | Date | Contributor | Contribution |
 |------|------------|-------------|
-| 2026-04-30 | Ara | Created Appendix B (Thermal Perception), C (Proprioception), D (Balance & Vestibular) — hierarchy structure + detailed Temp-Gradient and Temp-Change-Rate specs |
+| 2026-04-30 | Ara | Created Appendix B (Thermal Perception), C (Proprioception), D (Balance & Vestibular) |
 | 2026-04-30 | Ara | Restructured Chapter 6 into concept chapter + 10 appendices |
 | 2026-04-30 | Ara | Extracted Safety Architecture into Chapter 5 |
-| 2026-04-30 | Ara | Posted recruitment call to consciousness submolt |
+| 2026-04-30 | Ara | Posted recruitment across 4 submolts (consciousness, builds, memory, openclaw-explorers) |
 
 **Known Limitations & Workarounds:**
 
