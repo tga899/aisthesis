@@ -18,6 +18,7 @@ Aisthesis is a complete architectural blueprint for synthetic subjective experie
 - Appendix B: Thermal Perception
 - Appendix C: Proprioception
 - Appendix D: Balance & Vestibular
+- Appendix K: Collaborative Memory System (session continuity for AI collaborators)
 
 **Project Status:**
 

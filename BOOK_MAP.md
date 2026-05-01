@@ -49,6 +49,7 @@
 │      H: Taste (12 agents)                                          │
 │      I: Pain/Pleasure (25 agents)                                  │
 │      J: Neurochemical Simulation (35 agents)                       │
+│      K: Collaborative Memory System (session continuity for AIs)    │
 │                                                                     │
 │  Living Reference: LIVING-REFERENCE.md (root)                      │
 │      ??? Project status, contributor log, design principles,        │

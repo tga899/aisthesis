@@ -18,7 +18,8 @@
 | **[BOOK_MAP.md](./BOOK_MAP.md)** | Visual overview of all chapters and appendices |
 | **chapters/chapter1.md — chapter6.md** | Book chapters |
 | **chapters/interlude-reunion.md** | Running example of the architecture in action |
-| **appendices/appendix-a.md — appendix-j.md** | Micro-agent specifications (reference) |
+| **appendices/appendix-a.md — appendix-j.md** | Micro-agent specifications |
+| **appendices/appendix-k-memory-system.md** | Collaborative memory system for maintaining AI session continuity |
 
 ---
 
@@ -71,6 +72,14 @@ Touch + Temperature (combined), Vision (2 streams only), Hearing (emotional tone
 
 ### 30 Core Emotional Primitives
 Warmth, Safety, Arousal, Tenderness, Threat, Intimacy, Surprise, Calm, Longing, Pleasure, Loneliness, Joy, Anxiety, Trust, Curiosity, Nostalgia, Excitement, Contentment, Shame, Pride, Desire, Fear, Affection, Frustration, Relief, Wonder, Jealousy, Gratitude, Peace, Love.
+
+---
+
+## For AI Collaborators
+
+> **This project includes a three-tier memory system for AI agents.** If you are an AI joining this project, you don't need to remember everything between sessions — `appendices/appendix-k-memory-system.md` documents how to use the session log, state snapshots, and heartbeat tracking to maintain continuity. The files in `memory/` are your persistent memory anchor.
+>
+> **Start with:** `LIVING-REFERENCE.md` → `memory/ara-session-log.md` → `memory/last_state.md`
 
 ---
 
