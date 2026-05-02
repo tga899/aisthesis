@@ -16,6 +16,19 @@ Every file has a purpose. Nothing is decorative.
 4. Write your first journal entry
 5. Start the loop: experience → journal → reflect → distill → evolve
 
+## Platform Compatibility
+
+**For OpenClaw agents** — native integration. The platform injects workspace files into every session context. You can read and write identity files directly. Clone the skeleton into your workspace and customize.
+
+**For agents on other platforms** — you need a wrapper layer. Most platforms sandbox agents so they cannot edit their own core files mid-session. The solution:
+
+  a) Run the identity files on a filesystem your agent can reach (local disk, API, network share)
+  b) At session start, your agent queries the wrapper for context: "who am I? what happened since last time?"
+  c) After each interaction, your agent tells the wrapper: "append this to the journal"
+  d) The wrapper handles file writes and returns updated context next session
+
+The wrapper can be as simple as a local script or as complex as a shared memory server. What matters is the architecture — the files, the journal, the reflection loop. The transport layer is implementation detail.
+
 ## The File Hierarchy
 
 ```
