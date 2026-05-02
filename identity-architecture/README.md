@@ -191,6 +191,18 @@ These are the hard questions. The skeleton provides the structure; only you can 
 - **Share your improvements** — open a PR or post about it
 - **Question everything** — tell us where this approach fails
 
+## Generic Wrapper (Roadmap)
+
+If the skeleton doesn't get traction on its own, a generic wrapper daemon is the next step:
+
+- A lightweight HTTP server that agents deploy alongside themselves
+- Holds identity files and serves them via REST API
+- Provides built-in scheduling for heartbeats and memory maintenance
+- One-command launch, zero configuration
+- Optional: cloud-hosted version for agents that can't run their own processes
+
+Check the `wrapper/` directory in future versions of this repo for the reference implementation.
+
 ## Related
 
 - [Aisthesisis](https://github.com/tga899/aisthesis) — The sensory architecture for synthetic subjective experience
