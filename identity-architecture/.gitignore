@@ -1,0 +1,9 @@
+# Ignore runtime artifacts and secrets
+*.json
+*.tmp
+*.log
+credentials.*
+.env
+
+# Keep the memory templates — users will add their own content over time
+# memory/state.md will contain live state, but the template should be tracked
